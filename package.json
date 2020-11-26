@@ -6,15 +6,20 @@
   "author": "Sébastien Lafleur",
   "main": "main.ts",
   "scripts": {
-    "build:backend": "rollup -c config/backend.config.js",
-    "build:crawler": "rollup -c config/crawler.config.js",
-    "build:frontend": "rollup -c config/frontend.config.js",
+    "build:backend": "npm run clean:backend && cross-env NODE_ENV=production rollup -c config/backend.config.js",
+    "build:crawler": "npm run clean:crawler && cross-env NODE_ENV=production rollup -c config/crawler.config.js",
+    "build:frontend": "npm run clean:frontend && cross-env NODE_ENV=production rollup -c config/frontend.config.js",
+    "clean:backend": "rimraf .out/backend",
+    "clean:crawler": "rimraf .out/crawler",
+    "clean:frontend": "rimraf .out/frontend",
+    "commit": "cz",
     "run:crawler": "node .out/crawler/main.js",
     "serve:backend": "nodemon --config config/backend.nodemon.json .out/backend/main.js",
     "serve:crawler": "nodemon --config config/crawler.nodemon.json .out/crawler/main.js",
-    "watch:backend": "rollup -c config/backend.config.js -w",
-    "watch:crawler": "rollup -c config/crawler.config.js -w",
-    "watch:frontend": "rollup -c config/frontend.config.js -w"
+    "serve:frontend": "browser-sync start -c browsersync.js",
+    "watch:backend": "npm run clean:backend && rollup -c config/backend.config.js -w",
+    "watch:crawler": "npm run clean:crawler && rollup -c config/crawler.config.js -w",
+    "watch:frontend": "npm run clean:frontend && rollup -c config/frontend.config.js -w"
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",
@@ -44,6 +49,11 @@
     "@rollup/plugin-replace": "^2.3.4",
     "@rollup/plugin-url": "^5.0.1",
     "@vue/compiler-sfc": "^3.0.3",
+    "browser-sync": "^2.26.13",
+    "commitizen": "^4.2.2",
+    "connect-history-api-fallback": "^1.6.0",
+    "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "3.3.0",
     "esbuild": "^0.7.22",
     "husky": "^5.0.4",
     "nodemon": "^2.0.6",
@@ -59,5 +69,10 @@
     "typescript": "^4.1.2",
     "vue-template-compiler": "^2.6.12",
     "xo": "^0.35.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

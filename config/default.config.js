@@ -9,7 +9,7 @@ import vue from 'rollup-plugin-vue';
 import esbuild from 'rollup-plugin-esbuild';
 import externals from 'rollup-plugin-node-externals';
 
-const production = process.env.ROLLUP_WATCH === 'true';
+const production = process.env.NODE_ENV === 'production';
 
 export default {
   plugins: [
@@ -21,7 +21,7 @@ export default {
     externals(),
     nodeResolve(),
     replace({
-      'process.env.NODE_ENV': process.env.NODE_ENV || '"production"',
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
     }),
     vue(),
     url(),
