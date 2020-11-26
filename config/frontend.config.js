@@ -1,17 +1,44 @@
-import config from './default.config';
-import html2 from 'rollup-plugin-html2';
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const CopyPlugin = require('copy-webpack-plugin');
+const config = require('./default.config');
 
-config.input = 'src/frontend/main.ts';
-config.output = {
-  dir: '.out/frontend',
-  sourcemap: true,
-  format: 'iife',
+const c = {
+  target: 'web',
+  entry: path.resolve(__dirname, '../src/frontend/main.ts'),
+  output: {
+    path: path.resolve(__dirname, '../.out/frontend'),
+    filename: '[name].js',
+  },
+  externals: [],
 };
 
-config.plugins.push(
-  html2({
-    template: 'pages/index.html',
-  })
-);
+module.exports = (env, argv) => {
+  Object.assign(config, c);
 
-export default config;
+  config.plugins.push(
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(argv.mode === 'production' ? 'PROD' : 'DEV'),
+        BASE_URL: '"./"',
+      },
+    }),
+  );
+
+  config.plugins.push(
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './pages/index.html',
+      templateParameters: {
+        BASE_URL: './',
+      },
+      filename: 'index.html',
+      chunksSortMode: 'manual',
+    }),
+  );
+
+  config.optimization.minimize = argv.mode === 'production';
+
+  return config;
+};
