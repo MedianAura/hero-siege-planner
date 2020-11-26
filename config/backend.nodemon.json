@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "watch": [
+    ".out/backend"
+  ],
+  "ext": "js"
+}

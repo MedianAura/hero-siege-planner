@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "watch": [
+    ".out/crawler"
+  ],
+  "ext": "js"
+}
