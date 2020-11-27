@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { AppController } from './app.controller';
+import { RelicsModule } from './relics/relics.module';
 
 @Module({
-  imports: [],
+  imports: [RelicsModule],
   controllers: [AppController],
   providers: [AppService],
 })

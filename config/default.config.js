@@ -1,11 +1,8 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const { ESBuildPlugin, ESBuildMinifyPlugin } = require('esbuild-loader');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
-
-const production = process.env.NODE_ENV === 'production';
 
 module.exports = {
   target: 'node',
@@ -88,32 +85,73 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
       },
+      /* config.module.rule('ts') */
+      {
+        test: /\.ts$/,
+        use: [
+          {
+            loader: 'ts-loader',
+            options: {
+              transpileOnly: true,
+            },
+          },
+        ],
+        exclude: /node_modules/,
+      },
       /* config.module.rule('js') */
       {
         test: /\.js$/,
-        loader: 'esbuild-loader',
-        options: {
-          target: 'es2015',
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: [['@babel/preset-env', { targets: 'defaults' }]],
+          },
         },
-      },
-      /* config.module.rule('ts') */
-      {
-        test: /\.ts?$/,
-        loader: 'esbuild-loader',
-        options: {
-          loader: 'ts',
-          target: 'es2015',
-        },
-      },
-      /* config.module.rule('less') */
-      {
-        test: /\.less$/,
-        use: ['vue-style-loader', 'less-loader', 'css-loader'],
       },
       /* config.module.rule('css') */
       {
         test: /\.css$/,
-        use: ['vue-style-loader', 'css-loader'],
+        use: [
+          'vue-style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              esModule: false,
+              // modules: false,
+            },
+          },
+        ],
+      },
+      /* config.module.rule('sass') */
+      {
+        test: /\.sass$/,
+        use: [
+          'vue-style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              esModule: false,
+              // modules: false,
+            },
+          },
+          'sass-loader',
+        ],
+      },
+      /* config.module.rule('scss') */
+      {
+        test: /\.scss$/,
+        use: [
+          'vue-style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              esModule: false,
+              // modules: false,
+            },
+          },
+          'sass-loader',
+        ],
       },
     ],
   },
@@ -121,11 +159,11 @@ module.exports = {
     extensions: ['.ts', '.js', '.vue', '.json'],
     alias: {
       vue$: 'vue/dist/vue.runtime.esm.js',
-      '@core': path.resolve(__dirname, './src/core'),
-      '@backend': path.resolve(__dirname, './src/backend'),
-      '@frontend': path.resolve(__dirname, './src/frontend'),
-      '@root': path.resolve(__dirname, '.'),
-      '@src': path.resolve(__dirname, './src'),
+      '@core': path.resolve(__dirname, '../src/core'),
+      '@backend': path.resolve(__dirname, '../src/backend'),
+      '@frontend': path.resolve(__dirname, '../src/frontend'),
+      '@root': path.resolve(__dirname, '..'),
+      '@src': path.resolve(__dirname, '../src'),
     },
   },
   devtool: 'cheap-module-source-map',
@@ -150,12 +188,6 @@ module.exports = {
         },
       },
     },
-    minimize: true,
-    minimizer: [
-      new ESBuildMinifyPlugin({
-        target: 'es2015',
-      }),
-    ],
   },
   stats: {
     all: false,
@@ -179,5 +211,5 @@ module.exports = {
     version: true,
     hash: true,
   },
-  plugins: [new VueLoaderPlugin(), new ESBuildPlugin(), new CaseSensitivePathsPlugin(), new FriendlyErrorsWebpackPlugin()],
+  plugins: [new VueLoaderPlugin(), new CaseSensitivePathsPlugin(), new FriendlyErrorsWebpackPlugin()],
 };

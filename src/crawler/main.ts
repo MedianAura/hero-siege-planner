@@ -1,13 +1,14 @@
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import Crawler from 'crawler'
+// @ts-ignore
+import Crawler from 'crawler';
 
-const thing = [];
+const thing: any = [];
 
 const c = new Crawler({
   maxConnections: 10,
   // This will be called for each crawled page
-  callback: function (error, res, done) {
+  callback: function (error: any, res: any, done: any) {
     if (error) {
       console.log(error);
       return;
@@ -15,19 +16,19 @@ const c = new Crawler({
 
     var $ = res.$;
 
-    $(".article-table > tbody > tr").each((ndx, tr) => {
+    $('.article-table > tbody > tr').each((ndx: any, tr: any) => {
       const $tds = $(tr).find('td');
       thing.push({
-        'image': $tds.eq(0).find('.image').prop('href'),
-        'name': $tds.eq(1).text().trim(),
-        'stats': $tds.eq(2).text().trim()
+        image: $tds.eq(0).find('.image').prop('href'),
+        name: $tds.eq(1).text().trim(),
+        stats: $tds.eq(2).text().trim(),
       });
-    })
+    });
 
     writeFileSync(resolve(__dirname, '../../', 'public/data', 'relics.json'), JSON.stringify(thing, null, '\t'), { encoding: 'utf8' });
-    console.log("Done.");
+    console.log('Done.');
     done();
-  }
+  },
 });
 
 // Queue just one URL, with default callback

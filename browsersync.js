@@ -1,6 +1,6 @@
 const historyFallback = require('connect-history-api-fallback');
 module.exports = {
-  files: ['.out/frontend/**/*.*', '.out/frontend/*.htm?'],
+  watch: true,
   server: {
     baseDir: '.out/frontend/',
   },

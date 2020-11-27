@@ -9,6 +9,7 @@ const c = {
   entry: path.resolve(__dirname, '../src/frontend/main.ts'),
   output: {
     path: path.resolve(__dirname, '../.out/frontend'),
+    publicPath: '/',
     filename: '[name].js',
   },
   externals: [],
@@ -28,13 +29,11 @@ module.exports = (env, argv) => {
 
   config.plugins.push(
     new HtmlWebpackPlugin({
-      inject: true,
       template: './pages/index.html',
       templateParameters: {
         BASE_URL: './',
       },
       filename: 'index.html',
-      chunksSortMode: 'manual',
     }),
   );
 

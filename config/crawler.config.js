@@ -1,37 +1,29 @@
-import alias from '@rollup/plugin-alias'
-import commonjs from '@rollup/plugin-commonjs'
-import json from '@rollup/plugin-json';
-import vue from 'rollup-plugin-vue'
-import esbuild from 'rollup-plugin-esbuild'
-import externals from 'rollup-plugin-node-externals'
+const path = require('path');
+const webpack = require('webpack');
+// const CopyPlugin = require('copy-webpack-plugin');
+const config = require('./default.config');
 
-const production = !process.env.ROLLUP_WATCH
-
-export default {
-  input: 'src/crawler/main.ts',
+const c = {
+  entry: path.resolve(__dirname, '../src/crawler/main.ts'),
   output: {
-    file: '.out/crawler/main.js',
-    format: 'commonjs'
+    path: path.resolve(__dirname, '../.out/crawler'),
+    filename: '[name].js',
   },
-  plugins: [
-    alias({
-      entries: [{find: '@', replacement: __dirname + '/src/'}],
-    }),
-    externals(),
-    commonjs(),
-    json(),
-    vue(),
-    esbuild({
-      minify: production,
-      target: 'es2015',
-      loaders: {
-        '.ts': 'ts',
-        '.json': 'json'
+};
+
+module.exports = (env, argv) => {
+  Object.assign(config, c);
+
+  config.plugins.push(
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(argv.mode === 'production' ? 'PROD' : 'DEV'),
+        BASE_URL: '"./"',
       },
-      outdir: '.out',
-    })
-  ],
-  watch: {
-    clearScreen: true,
-  },
-}
+    }),
+  );
+
+  config.optimization.minimize = argv.mode === 'production';
+
+  return config;
+};
