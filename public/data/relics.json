@@ -2,821 +2,985 @@
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4e/Demon_sheep.gif",
     "name": "Demon Sheep",
+    "category": "Orbiting",
     "stats": "Damages enemies in contact\nUsed with Jefre's Subscription to open Sheeponia"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/b3/Fetus.gif",
     "name": "F.E.T.U.S.",
+    "category": "Orbiting",
     "stats": "Damages enemies in contact"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/fc/Guardian_angel.gif",
     "name": "Guardian Angel",
+    "category": "Orbiting",
     "stats": "Damages and pushes enemies in contact"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/09/Shredder.gif",
     "name": "Shredder",
+    "category": "Orbiting",
     "stats": "Damages enemies in contact"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d9/Templar_shield.gif",
     "name": "Templar Shield",
+    "category": "Orbiting",
     "stats": "Damages enemies in contact and blocks projectiles"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/ed/The_almighty_fedora.gif",
     "name": "Almighty Fedora",
+    "category": "Following",
     "stats": "Shoots projectiles at enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6d/Ancient_rock.gif",
     "name": "Ancient Rock",
+    "category": "Following",
     "stats": "Shoots projectiles at enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/5b/Honey_bee.gif",
     "name": "Honeybee",
+    "category": "Following",
     "stats": "Shoots puddles of honey on ground that damage enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6c/Karp_head.PNG",
     "name": "Karp Head",
+    "category": "Following",
     "stats": "Shoots projectiles at enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/cd/Minisect-1.png",
     "name": "Minisect",
+    "category": "Following",
     "stats": "Shoots out projectiles in 4 directions damaging enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/96/Pickled_brain.gif",
     "name": "Pickled Brain",
+    "category": "Following",
     "stats": "Summons a zombie to attack enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/62/Shrunken_head.gif",
     "name": "Shrunken Head",
+    "category": "Following",
     "stats": "Shoots projectiles at enemies and poisons them"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/3/38/Skullbat.gif",
     "name": "Skull Bat",
+    "category": "Following",
     "stats": "Shoots projectiles at enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6e/The_eye.gif",
     "name": "The Eye",
+    "category": "Following",
     "stats": "Shoots projectiles at enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/63/War_zeppelin.gif",
     "name": "War Zeppelin",
+    "category": "Following",
     "stats": "Shoots projectiles at enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/b1/1000_kg.gif",
     "name": "1000 KG",
+    "category": "Active",
     "stats": "Throws around 1000 KG weights"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/08/Aarons_staff.gif",
     "name": "Aaron's Staff",
+    "category": "Active",
     "stats": "Heals player for 25% of health"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/a0/Angel_staff_of_apocalypse.gif",
     "name": "Angel Staff of Apocalypse",
+    "category": "Active",
     "stats": "Spawns nearby explosions that damage enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/76/Apple.gif",
     "name": "Apple Head",
+    "category": "Active",
     "stats": "Launches a huge apple in air shooting around projectiles upon impact with ground"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/7e/Balalayka.gif",
     "name": "Balalayka",
+    "category": "Active",
     "stats": "Stuns enemies around the player after a few seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/ed/Bomb.gif",
     "name": "Bomb",
+    "category": "Active",
     "stats": "Sets a bomb that will explode when triggered by an enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/c1/Book_of_belial.gif",
     "name": "Book of Belial",
+    "category": "Active",
     "stats": "Increases player damage by 25%"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/da/Boomerang.gif",
     "name": "Boomerang",
+    "category": "Active",
     "stats": "Throws a Boomerang that damages all enemies it touches, and then comes back"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/cf/Bouncy.gif",
     "name": "Bouncy",
+    "category": "Active",
     "stats": "Sends out a spike ball that damages enemies in its path"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/8f/Candy_crusher.gif",
     "name": "Candy Crusher",
+    "category": "Active",
     "stats": "Throws around explosive candy that damage nearby enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/0b/Casino_dice.gif",
     "name": "Casino Die",
+    "category": "Active",
     "stats": "Drops a dice on the player's location dealing damage to enemies nearby"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/5c/Dabox.gif",
     "name": "Da Box",
+    "category": "Active",
     "stats": "Releases a bunch of random items"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/67/Darts.gif",
     "name": "Darts",
+    "category": "Active",
     "stats": "Shoots out a ring of darts from the player"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/11/Delicious_pie.gif",
     "name": "Delicious Pie",
+    "category": "Active",
     "stats": "Drops a slice of pie that taunts all nearby enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4c/Dislocated_eye.gif",
     "name": "Dislocated Eye",
+    "category": "Active",
     "stats": "Slows all enemies on screen"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/3/34/Double_scythe.gif",
     "name": "Doube Scythe",
+    "category": "Active",
     "stats": "Throws a double scythe dealing damage to enemies in a line"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/82/Dragons_head.gif",
     "name": "Dragon Head",
+    "category": "Active",
     "stats": "Shoot out flames for 3.5 seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/54/Es_energy.gif",
     "name": "ES Energy",
+    "category": "Active",
     "stats": "Temporarily increases Energy by 15%"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/ba/Fly_swatter.gif",
     "name": "Flyswatter",
+    "category": "Active",
     "stats": "Spawns flies that do nothing. Troll relic"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/fe/Jar_of_flies.gif",
     "name": "Jar of Flies",
+    "category": "Active",
     "stats": "Spawns a swarm of flies around the player"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/53/Keygen_exe.gif",
     "name": "Keygen.exe",
+    "category": "Active",
     "stats": "Summons fake BSoD, stunning everything"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/8a/Light_cola.gif",
     "name": "Light Cola",
+    "category": "Active",
     "stats": "Makes the player throw up for a few seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/2e/Maryos_pipe.gif",
     "name": "Maryo's Pipe",
+    "category": "Active",
     "stats": "Warps the player in few meters to the cursor position"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d0/Meat_hook.gif",
     "name": "Meat Hook",
+    "category": "Active",
     "stats": "Hooks nearby enemy to the player and stuns them"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/af/Ninja_hook.gif",
     "name": "Ninja Hook",
+    "category": "Active",
     "stats": "Grapples nearby enemies to the player"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/ae/Orb_of_chaos.gif",
     "name": "Orb of Chaos",
+    "category": "Active",
     "stats": "Damages nearby enemies once"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/7f/Orb_of_fire.gif",
     "name": "Orb of Fire",
+    "category": "Active",
     "stats": "Spawns a hydra for 10 seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/93/Orb_of_ice.gif",
     "name": "Orb of Ice",
+    "category": "Active",
     "stats": "Sends out a circle of ice damaging and slowing enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/ba/Orb_of_poison.gif",
     "name": "Orb of Poison",
+    "category": "Active",
     "stats": "Sends out a circle of poison damaging enemies it hits over time"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/93/Rainbow_gate.gif",
     "name": "Rainbow Gate",
+    "category": "Active",
     "stats": "Shoot a rainbow beam that deals damage to enemies in a line"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/01/Rocket_barrage.gif",
     "name": "Rocket Barrage",
+    "category": "Active",
     "stats": "Shoots out 7 homing rockets to damage enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/98/Rotten_apple.gif",
     "name": "Rotten Apple",
+    "category": "Active",
     "stats": "Morphs nearby enemies into apple heads"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/58/Rubber_duck.gif",
     "name": "Rubber Duck",
+    "category": "Active",
     "stats": "Throws a duck that explodes damaging nearby enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/fa/Satans_horn.gif",
     "name": "Satan's Horn",
+    "category": "Active",
     "stats": "Damages and stuns enemies for 1.5 seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/07/Satans_tooth.gif",
     "name": "Satan's Tooth",
+    "category": "Active",
     "stats": "Sets nearby enemies on fire damaging them over 3.5 seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/c3/Shade_of_death.gif",
     "name": "Shade of Death",
+    "category": "Active",
     "stats": "Stuns and damages all enemies near you"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/e1/Shiv.gif",
     "name": "Shiv",
+    "category": "Active",
     "stats": "Throws multiple shivs in the direction faced on use"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/0b/Squishy_the_suicidal_pig.gif",
     "name": "Squishy the Suicidal Pig",
+    "category": "Active",
     "stats": "Summon Squishy to run to the nearest enemy and kaboom"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/1b/Stickman_steve.gif",
     "name": "Stickman Steve",
+    "category": "Active",
     "stats": "Summons the legendary Stickman Steve that knocks enemies back and deals damage"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4f/Sun_flare.gif",
     "name": "Sun Flare",
+    "category": "Active",
     "stats": "Spawns sun rays nearby that damage enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/62/Vadira.gif",
     "name": "Vadjra",
+    "category": "Active",
     "stats": "Shoots a thunder spear that damages, pierces, and pushes enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/b6/Winners_drug.gif",
     "name": "Winner's Drug",
-    "stats": "Insreases strenght by 10% for 5 seconds"
+    "category": "Active",
+    "stats": "Increases strength by 10% for 5 seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d1/A_wizards_hat.gif",
     "name": "Wizard Hat",
+    "category": "Active",
     "stats": "Restores mana on use"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/50/The_amputation_kit.gif",
     "name": "Amputation Kit",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Enables Flight"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/16/Assassins_shuriken.gif",
     "name": "Assassin's Shuriken",
+    "category": "On Hit (Proc)/Passive",
     "stats": "10% Chance on attack to throw a piercing shuriken to the nearest enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/25/Barbed_shield.gif",
     "name": "Barbed Shield",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Chance on getting attacked to damage the attacker"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/88/Basilisks_tooth.gif",
     "name": "Basilisk Tooth",
+    "category": "On Hit (Proc)/Passive",
     "stats": "1% Chance on hit to petrify and damage the enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/ba/Bracer_of_life.gif",
     "name": "Bracer of Life",
+    "category": "On Hit (Proc)/Passive",
     "stats": "\"Health regen.\"\nspecific value currently unknown, used to be 3%"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/c1/Cactus.gif",
     "name": "Cactus",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Spawns a small cactus below the nearest enemy, damaging and slowing them"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/c6/Charmed_Blood-0.png",
     "name": "Charmed Blood",
+    "category": "On Hit (Proc)/Passive",
     "stats": "\"Lifesteal!\"\nAdds a 10% chance to heal 2% max Hp on hit."
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/f3/Daddys_key_chain.gif",
     "name": "Daddy's Key Chain",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Spawns a few regular and crystal keys.  Activates on pickup"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/5d/Devil_horn.gif",
     "name": "Devil Horn",
+    "category": "On Hit (Proc)/Passive",
     "stats": "While below 10% health, damage is increased by 100%"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/23/Devil_Skull.PNG",
     "name": "Devil Skull",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Shoots out projectiles every few seconds, damaging enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/7c/Dragon_shield.gif",
     "name": "Dragon Shield",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Chance on getting attacked to spawn a meteor, damaging enemies in a line"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/f2/Fire_and_ice.gif",
     "name": "Fire & Ice",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Chance on hit to burn or freeze the enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/1a/Fortune_card.gif",
     "name": "Fortune Card",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Spawns a random event.  Activates on pickup"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6d/Frozen_orb.gif",
     "name": "Frozen Orb",
+    "category": "On Hit (Proc)/Passive",
     "stats": "18% Chance on hit to freeze the enemy for 2 seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/13/Hand_of_midas.gif",
     "name": "Hand of Midas",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Increased gold drops"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/7b/Helm_of_chaos.gif",
     "name": "Helm of Chaos",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Falling below 5% health activates a shockwave, damaging and pushing back enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/ca/Homing_shots.gif",
     "name": "Homing Shots",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Player projectiles home into enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/3/3c/Horned_mask.gif",
     "name": "Horned Mask",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Demon statues give positive buffs only"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/bc/Jungle_vial.gif",
     "name": "Jungle Vial",
+    "category": "On Hit (Proc)/Passive",
     "stats": "20% Chance on attack to poison a nearby enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/3/3a/Lantern.gif",
     "name": "Lantern",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Chance on getting attacked to heal player by 10%"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4c/Lottery_ticket.gif",
     "name": "Lotto Ticket",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Gives +2500 Gold on pickup"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d0/Magnet.gif",
     "name": "Magnet",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Increases pickup range of gold, keys, and rubies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/c5/Mana_dices.gif",
     "name": "Mana Dice",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Chance on hit to restore some mana"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/c0/Metal_detector.png",
     "name": "Metal Detector",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Tracks local Ore veins and increases Jade chance"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/3/38/The_mighty_sushi.gif",
     "name": "Mighty Sushi",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on attack to throw out explosive sushi, damaging enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/fa/Necromancers_finger.gif",
     "name": "Necro's Finger",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on attack to spawn a soul that seeks out and damages an enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d3/Odins_sword.gif",
     "name": "Odin's Sword",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Chance on hit to set the ground on fire"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/80/Oversized.gif",
     "name": "Oversized",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Increases player projectile & ability size"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/40/Plague_pendant.gif",
     "name": "Plague Pendant",
+    "category": "On Hit (Proc)/Passive",
     "stats": "20% Chance on getting attacked to poison the attacker"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/f4/Poison_spear.gif",
     "name": "Poison Spear",
+    "category": "On Hit (Proc)/Passive",
     "stats": "20% Chance on hit to poison the enemy, damaging them over time"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/98/Razer_headset.gif",
     "name": "Razer Headset",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Pulses area around player damaging enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6b/Razor_leaf.gif",
     "name": "Razor Leaf",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on attack to send out razor leaves damaging enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/e7/Razorwire.gif",
     "name": "Razorwire",
+    "category": "On Hit (Proc)/Passive",
     "stats": "12% Chance on hit to bleed enemy over time"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/76/Rice_and_chopsticks.gif",
     "name": "Rice & Chopsticks",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on attack to disarm the enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6a/Rocket_battery.gif",
     "name": "Rocket Battery",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on attack to fire a homing missile at nearby enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/ed/Shattered_katana.gif",
     "name": "Shattered Katana",
+    "category": "On Hit (Proc)/Passive",
     "stats": "3% Chance on attack to spawn tornados damaging nearby enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/63/The_skeleton_key.gif",
     "name": "Skeleton Key",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Gives player 99 keys"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/7a/Small_spikey.gif",
     "name": "Small Spikey",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on attack to spawn orbital balls damaging enemies in contact"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/bd/Spectral_arrow.gif",
     "name": "Spectral Arrow",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Allows ranged auto attack projectiles to go through structures and terrain"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/a8/Stigmata.gif",
     "name": "Stigmata",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Dropping below 5% health will boost health regen significantly"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/59/The_sun.gif",
     "name": "The Sun",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on attack to call down a sunray, damaging the nearest enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6c/Titans_gladius.gif",
     "name": "Titan's Gladius",
+    "category": "On Hit (Proc)/Passive",
     "stats": "1% Chance on hit to instakill the enemy (Does significant damage to bosses instead of oneshotting them)"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/f7/Twin_blade.gif",
     "name": "Twinblade",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on hit to make the next attack a critical strike for 75% more damage"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/a6/Witch_claw.gif",
     "name": "Witch Claw",
+    "category": "On Hit (Proc)/Passive",
     "stats": "5% Chance on hit to turn the enemy into an apple head, stunning for 3 seconds"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/91/Zombies_face.gif",
     "name": "Zombie's Face",
+    "category": "On Hit (Proc)/Passive",
     "stats": "Passively slows nearby enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/ac/Amazons_spear.gif",
     "name": "Amazon Spear",
+    "category": "Stat/Passive Modifiers",
     "stats": "+15 Speed +2% Attack Speed"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/1b/Blazing_boots.gif",
     "name": "Blazing Boots",
+    "category": "Stat/Passive Modifiers",
     "stats": "+5 Speed\nPlayer leaves behind a trail of fire that damages enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/96/Bonsai_tree.gif",
     "name": "Bonsai Tree",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% All Stats"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/1d/Butcher%27s_Knife.PNG",
     "name": "Butcher Knife",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Strength +5 Speed\n5% Chance on attack to shoot a blood shockwave dealing damage to enemies in a line"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/b9/Butterfly_knife.gif",
     "name": "Butterfly Knife",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Attack Speed\n5% Chance on hit to make the next attack a critical strike for 75% more damage."
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/7d/Cake.gif",
     "name": "Cake",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/1f/Cheese_burger.gif",
     "name": "Cheeseburger",
+    "category": "Stat/Passive Modifiers",
     "stats": "+4% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/eb/Commander%27s_Sword.PNG",
     "name": "Commander's Sword",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Attack Speed +5% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/85/Cookies_and_milk.gif",
     "name": "Cookies & Milk",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/77/Damiens_Amulet.PNG",
     "name": "Damien's Amulet",
+    "category": "Stat/Passive Modifiers",
     "stats": "+8% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d6/Damned_Buckler.PNG",
     "name": "Damned Buckler",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Armor"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/95/Daplayers_dislocated_head.gif",
     "name": "DaPlayer Head",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Strength\n3% Chance on enemy death to spawn flies that damage enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/83/Deaths_scythe.gif",
     "name": "Death's Scythe",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Strength\n20% Chance on attack to shoot skulls from player"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/a9/Dirge-0.png",
     "name": "Dirge",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Attack Speed +3% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/ea/Doom_Flute.PNG",
     "name": "Doom Flute",
+    "category": "Stat/Passive Modifiers",
     "stats": "+5% Attack Speed"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/2c/Frostmourne.gif",
     "name": "Frostmourne",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Energy +2% Strength\n5% Chance on attack to shoot an ice shockwave damaging and freezing enemies in a line"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/1f/Golden_armor.gif",
     "name": "Golden Armor",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Armor"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/41/Golden_axe.gif",
     "name": "Golden Axe",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Armor"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/c/c5/Golden_cube.gif",
     "name": "Golden Cube",
+    "category": "Stat/Passive Modifiers",
     "stats": "3% All Stats"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/1e/Golden_dagger.gif",
     "name": "Golden Dagger",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Energy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/75/Golden_ring.gif",
     "name": "Golden Ring",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/5e/Golden_sword.gif",
     "name": "Golden Sword",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d9/Half_eaten_mochi.gif",
     "name": "Half Eaten Mochi",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Stamina\nIncreases health gained from orbs"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/a1/Hand_scythe.gif",
     "name": "Hand Scythe",
+    "category": "Stat/Passive Modifiers",
     "stats": "+4% Attack Speed"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/f5/Hellscream_axe.gif",
     "name": "Hellscream Axe",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Attack Speed +4% Strength\n30% Chance on hit to set enemy on fire for 5 seconds, dealing 15% total damage"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/09/The_holy_bible.gif",
     "name": "Holy Bible",
+    "category": "Stat/Passive Modifiers",
     "stats": "+5% Stamina\nEnables Flight"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/0c/The_holy_grail.gif",
     "name": "Holy Grail",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2 All Talents\n5% Chance on attack to smite enemies on screen"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d4/Jefres_subscription.gif",
     "name": "Jefre's Subscription",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Strength +5% Stamina\nUsed with Demon Sheep to open Sheeponia"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/f8/Large_beer.gif",
     "name": "Large Beer",
+    "category": "Stat/Passive Modifiers",
     "stats": "5% chance on attack to throw up, dealing damage to enemies caught in it"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4a/Lightning_Orb.png",
     "name": "Lightning Ball",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Attack Speed +1% Strength\n5% Chance on attack to throw a lightning orb to nearest enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/5/50/Light_katana.gif",
     "name": "Light Katana",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Attack Speed"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/dc/Magic_mushroom.gif",
     "name": "Magic Mushroom",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1 All Talents & Increases a Random stat"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/10/Mayos_old_sock.gif",
     "name": "Mayo's Old Sock",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/a/a3/Monkey_king_bard.gif",
     "name": "Monkey King Bar",
+    "category": "Stat/Passive Modifiers",
     "stats": "+15 Speed\nEnables Flight"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/e6/Nunchucks.gif",
     "name": "Nunchucks",
+    "category": "Stat/Passive Modifiers",
     "stats": "+5% Attack Speed +2% Strength +1% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/f8/Odd_book_of_spells.gif",
     "name": "Odd Book of Spells",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Energy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/2d/Ogre_club.gif",
     "name": "Ogre Club",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Strength\n18% Chance on hit to stun the enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/7/7b/Razer_blade.gif",
     "name": "Razer Blade",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Attack Speed"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/26/Rock_belt.gif",
     "name": "Rock Belt",
+    "category": "Stat/Passive Modifiers",
     "stats": "+10 Speed"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4a/Rusted_armor.gif",
     "name": "Rusted Armor",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Armor"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/8/8d/Rusted_axe.gif",
     "name": "Rusted Axe",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Armor"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/e0/Rusted_cube.gif",
     "name": "Rusted Cube",
+    "category": "Stat/Passive Modifiers",
     "stats": "1% All Stats"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/95/Rusted_dagger.gif",
     "name": "Rusted Dagger",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Energy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/1/17/Rusted_ring.gif",
     "name": "Rusted Ring",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/04/Rusted_sword.gif",
     "name": "Rusted Sword",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/f/ff/Satans_eye.gif",
     "name": "Satan's Eye",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% Stamina +1% Strength\n5% Chance on attack to send Hellfire forward, damaging enemies"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/2a/Sausage.gif",
     "name": "Sausage",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4d/Silver_armor.gif",
     "name": "Silver Armor",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Armor"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/b/be/Silver_axe.gif",
     "name": "Silver Axe",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Armor"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/2/2f/Silver_cube.gif",
     "name": "Silver Cube",
+    "category": "Stat/Passive Modifiers",
     "stats": "2% All Stats"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/3/31/Silver_dagger.gif",
     "name": "Silver Dagger",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Energy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6c/Silver_ring.gif",
     "name": "Silver Ring",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Stamina"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/0/01/Silver_sword.gif",
     "name": "Silver Sword",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/ef/Skull_axe.gif",
     "name": "Skull Axe",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/9/99/Spirit_skull.gif",
     "name": "Spirit Skull",
+    "category": "Stat/Passive Modifiers",
     "stats": "+2% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6f/Storm_dagger.gif",
     "name": "Storm Dagger",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% Attack Speed\n36% Chance on hit to call down lightning, damaging the enemy"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/4/4d/Tequila.gif",
     "name": "Tequila",
+    "category": "Stat/Passive Modifiers",
     "stats": "+5% Attack Speed +3% Strength"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/61/The_spoon.gif",
     "name": "The Spoon",
+    "category": "Stat/Passive Modifiers",
     "stats": "+1% All Stats +10 Speed"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/6/6b/Tocken_of_luck.gif",
     "name": "Token of Luck",
+    "category": "Stat/Passive Modifiers",
     "stats": "+50% Magic Find"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/e/ec/Triforce.gif",
     "name": "Triforce",
+    "category": "Stat/Passive Modifiers",
     "stats": "+3% All Stats"
   },
   {
     "image": "https://static.wikia.nocookie.net/herosiege/images/d/d6/Whip.gif",
     "name": "Whip",
+    "category": "Stat/Passive Modifiers",
     "stats": "+5% Attack Speed"
   }
 ]

@@ -22,4 +22,12 @@ export class RelicService {
 
     this.relicStore.setNeedle(needle.toLowerCase());
   }
+
+  public setCategoriesFilter(categories: string[]): void {
+    this.relicStore.setCategoriesFilter(categories);
+  }
+
+  public setStatsFilter(stats: string[]): void {
+    this.relicStore.setStatsFilter(stats);
+  }
 }

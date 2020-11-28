@@ -18,9 +18,12 @@ const c = new Crawler({
 
     $('.article-table > tbody > tr').each((ndx: any, tr: any) => {
       const $tds = $(tr).find('td');
+      const $h3 = $(tr).closest('.article-table').prev().prev();
+
       thing.push({
-        image: $tds.eq(0).find('.image').prop('href'),
+        image: $tds.eq(0).find('.image').prop('href').split('/revision/')[0],
         name: $tds.eq(1).text().trim(),
+        category: $h3.text(),
         stats: $tds.eq(2).text().trim(),
       });
     });

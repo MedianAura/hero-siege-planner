@@ -10,6 +10,9 @@ export class Relic {
   @Expose()
   public stats: string = '';
 
+  @Expose()
+  public category: string = '';
+
   public toJSON(): any {
     return classToPlain(this);
   }

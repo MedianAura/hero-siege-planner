@@ -6,10 +6,9 @@
       </b-image>
     </div>
     <div class="column">
-      <h1 class="title">{{ relic.name }}</h1>
-      <h2 class="subtitle">
-        {{ relic.stats }}
-      </h2>
+      <div>{{ relic.name }}</div>
+      <div>{{ relic.category }}</div>
+      <div>{{ relic.stats }}</div>
     </div>
   </div>
 </template>
