@@ -1,9 +1,12 @@
+import { Vue } from 'vue-property-decorator';
 import { Module, Mutation, VuexModule } from 'vuex-class-modules';
 import { Relic } from '../../core/models/relic';
+import { chunk } from 'lodash';
 
 @Module
 export class RelicStore extends VuexModule {
   public relics: Relic[] = [];
+  public userRelics: Array<Relic | undefined> = new Array(30);
 
   public needle: string = '';
   public categories: string[] = [];
@@ -27,6 +30,16 @@ export class RelicStore extends VuexModule {
   @Mutation
   public setStatsFilter(stats: string[]): void {
     this.stats = stats;
+  }
+
+  @Mutation
+  public addRelicToSlot(payload: any): void {
+    Vue.set(this.userRelics, payload.slot, payload.relic);
+  }
+
+  @Mutation
+  public removeRelicToSlot(slot: number): void {
+    Vue.set(this.userRelics, slot, undefined);
   }
 
   public isNameMatching(relic: Relic, needle: string): boolean {
@@ -62,5 +75,9 @@ export class RelicStore extends VuexModule {
 
       return [matchNeedle, ...matchCategory, ...matchStats].every((r) => r === true);
     });
+  }
+
+  get displaySlot(): Array<Array<Relic | undefined>> {
+    return chunk<Relic | undefined>(this.userRelics, 5);
   }
 }

@@ -30,4 +30,34 @@ export class RelicService {
   public setStatsFilter(stats: string[]): void {
     this.relicStore.setStatsFilter(stats);
   }
+
+  public selectRelic(relic: Relic): void {
+    let index;
+    if (relic.selected) {
+      // Retirer une relic
+      index = this.getRelicPosition(relic);
+      relic.selected = false;
+      this.relicStore.removeRelicToSlot(index);
+      return;
+    }
+
+    // Ajouter une relic
+    if (!this.hasRelicSlotAvailabble()) return;
+
+    relic.selected = true;
+    index = this.getEmptyRelicSlot();
+    this.relicStore.addRelicToSlot({ relic: relic, slot: index });
+  }
+
+  private hasRelicSlotAvailabble(): boolean {
+    return this.getEmptyRelicSlot() > -1;
+  }
+
+  private getEmptyRelicSlot(): number {
+    return this.relicStore.userRelics.findIndex((slot) => typeof slot === 'undefined');
+  }
+
+  private getRelicPosition(relic: Relic): number {
+    return this.relicStore.userRelics.findIndex((slot) => slot === relic);
+  }
 }

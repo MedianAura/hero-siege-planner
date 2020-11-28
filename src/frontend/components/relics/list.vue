@@ -1,7 +1,5 @@
 <template>
   <div>
-    <h1 class="title is-1">Relics</h1>
-
     <b-field>
       <b-input v-model="needle" size="is-medium" placeholder="Search..." type="search"></b-input>
     </b-field>
@@ -82,8 +80,8 @@
       </div>
     </section>
 
-    <div class="relic" v-for="relic in filteredRelics" :key="relic.name">
-      <RelicItem class="columns is-mobile" :relic="relic"></RelicItem>
+    <div v-for="relic in filteredRelics" :key="relic.name">
+      <RelicItem :relic="relic" @select="selectRelic(relic)"></RelicItem>
     </div>
   </div>
 </template>
@@ -132,17 +130,14 @@ export default class ListRelic extends Vue {
   public setStatsFilter(): void {
     this.relicService.setStatsFilter(this.stats);
   }
+
+  public selectRelic(relic: Relic): void {
+    this.relicService.selectRelic(relic);
+  }
 }
 </script>
 
 <style lang="scss" scoped>
-.relic {
-  border: 1px solid #333333;
-  border-radius: 10px;
-  padding: 10px 0;
-  margin: 15px 0;
-}
-
 .children-checkbox {
   margin-left: 30px;
   margin-bottom: 0.75rem;
