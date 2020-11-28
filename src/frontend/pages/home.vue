@@ -1,20 +1,12 @@
 <template>
   <section class="section">
     <div class="container">
-      <h1 class="title is-1">Relics</h1>
-
-      <div class="columns relic" v-for="relic in relics" :key="relic.name">
-        <div class="column is-1">
-          <b-image :src="relic.image">
-            <b-skeleton class="skeleton-placeholder" slot="placeholder" height="100%"></b-skeleton>
-          </b-image>
-        </div>
+      <div class="columns">
         <div class="column">
-          <h1 class="title">{{ relic.name }}</h1>
-          <h2 class="subtitle">
-            {{ relic.stats }}
-          </h2>
+          <RelicList></RelicList>
         </div>
+
+        <div class="column"></div>
       </div>
     </div>
   </section>
@@ -22,18 +14,12 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import axios from 'axios';
-import { Relic } from '../../core/models/relic';
+import RelicList from '../components/relics/list.vue';
 
-@Component
-export default class Home extends Vue {
-  public relics: Relic[] = [];
-
-  public async mounted(): Promise<void> {
-    const response = await axios.get<Relic[]>('http://localhost:3500/relics');
-    this.relics = response.data.map((d) => Relic.fromJSON(d));
-  }
-}
+@Component({
+  components: { RelicList },
+})
+export default class Home extends Vue {}
 </script>
 
 <style lang="scss">

@@ -1,13 +1,15 @@
+import 'reflect-metadata';
+import { store } from './stores';
+import './ioc';
 import Vue from 'vue';
 import App from './app.vue';
 import router from './router';
-import Buefy from 'buefy';
+import './plugins';
 
 Vue.config.productionTip = false;
 
-Vue.use(Buefy, { defaultIconPack: 'fa' });
-
 new Vue({
+  store,
   router,
   render: (h) => h(App),
 }).$mount('#app');
