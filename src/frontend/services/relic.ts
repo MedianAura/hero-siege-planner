@@ -12,6 +12,22 @@ export class RelicService {
   public async fetchRelics(): Promise<void> {
     const response = await axios.get<Relic[]>('http://localhost:3500/relics');
     this.relicStore.setRelics(response.data.map((d) => Relic.fromJSON(d)));
+
+    const search = document.location.search;
+    if (search.includes('relic=')) {
+      const searchParam = new URLSearchParams(document.location.search);
+      const relic: any = JSON.parse(atob(decodeURIComponent(searchParam.get('relic') as string)));
+      this.setDefaultRelic(relic);
+    }
+  }
+
+  public setDefaultRelic(relicIds: number[]): void {
+    relicIds.forEach((id) => {
+      const relic = this.relicStore.relics.find((r) => r.id === id);
+      if (relic) {
+        this.selectRelic(relic);
+      }
+    });
   }
 
   public doSearch(needle: string): void {

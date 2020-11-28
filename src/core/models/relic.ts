@@ -2,6 +2,9 @@ import { classToPlain, Expose, plainToClass, Transform } from 'class-transformer
 
 export class Relic {
   @Expose()
+  public id: number = 0;
+
+  @Expose()
   public name: string = '';
 
   @Expose()

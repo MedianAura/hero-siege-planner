@@ -13,12 +13,39 @@
         </div>
       </div>
     </div>
+
+    <section class="section">
+      <div class="container has-text-centered">
+        <b-button @click="generateURL">URL</b-button>
+        <b-button @click="isSummaryActive = !isSummaryActive">Summary</b-button>
+      </div>
+    </section>
+
+    <b-modal v-model="isSummaryActive" :width="640" scroll="keep">
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <template v-for="row in displaySlot">
+              <template v-for="relic in row">
+                <template v-if="isValidRelic(relic)">
+                  <div class="summary-relic">
+                    <div class="has-text-weight-bold">{{ relic.name }}</div>
+                    <div>{{ relic.stats }}</div>
+                  </div>
+                </template>
+              </template>
+            </template>
+          </div>
+        </div>
+      </div>
+    </b-modal>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { namespace } from 'vuex-class';
+import { flatten } from 'lodash';
 import { InjectFromContainer } from 'di-manager';
 import { RelicService } from '../../services/relic';
 import { Relic } from '../../../core/models/relic';
@@ -33,8 +60,19 @@ export default class UserListRelic extends Vue {
   @RelicStoreDecorator.Getter
   public displaySlot!: Relic[][];
 
+  public isSummaryActive: boolean = false;
+
   public isValidRelic(relic: Relic): boolean {
     return relic instanceof Relic;
+  }
+
+  public generateURL(): void {
+    const ids = flatten(this.displaySlot)
+      .filter((relic) => relic !== undefined)
+      .map((r) => r.id);
+
+    const url = encodeURIComponent(btoa(JSON.stringify(ids)));
+    document.location.href = document.location.href.replace(document.location.search, '') + '?relic=' + url;
   }
 }
 </script>
@@ -58,5 +96,11 @@ export default class UserListRelic extends Vue {
       }
     }
   }
+}
+
+.summary-relic {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 </style>

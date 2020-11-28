@@ -14,6 +14,7 @@ const c = new Crawler({
       return;
     }
 
+    var id = 1;
     var $ = res.$;
 
     $('.article-table > tbody > tr').each((ndx: any, tr: any) => {
@@ -21,6 +22,7 @@ const c = new Crawler({
       const $h3 = $(tr).closest('.article-table').prev().prev();
 
       thing.push({
+        id: id++,
         image: $tds.eq(0).find('.image').prop('href').split('/revision/')[0],
         name: $tds.eq(1).text().trim(),
         category: $h3.text(),
